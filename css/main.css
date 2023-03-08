@@ -2,54 +2,116 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Eczar:regular,500,600,700,800);
 
-
 body {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
 }
 
 .container {
-    width: 1485px;
-    margin: 0 auto;
+  max-width: 1485px;
+  margin: 0 auto;
 }
 
+/* --------header------- */
 .header {
-    padding-top: 26px;
-    padding-bottom: 34px;
-    
-    border: 1px solid rgba(0, 0, 0, 0.16);
+  padding-top: 26px;
+  padding-bottom: 34px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav-left {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 
 .nav-title {
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 42px;
-    color: #000;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 42px;
+  color: #000;
 }
 
 .nav-list {
-    display: flex;
-    column-gap: 32px;
-    padding-left: 25px;
+  display: flex;
+  column-gap: 32px;
+  padding-left: 25px;
 }
 
 .nav-link {
-    color: #000;
-    font-size: 20px;
+  color: #000;
+  font-size: 20px;
 }
 
 .nav-list-logo {
+  display: flex;
+  column-gap: 30px;
+}
+
+/* -------main--------- */
+
+.main {
+  padding: 45px 0 124px 0;
+}
+
+.main-btns {
     display: flex;
-    column-gap: 30px;
+    column-gap: 16px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+    
+}
+.main-text {
+    padding-top: 45px;
+    max-width: 540px;
+  
+}
+
+
+.hello-btn {
+  color: #fff;
+  font-size: 24px;
+
+  background-color: #000;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+.main-work-btn  a{
+    vertical-align: middle;
+}
+
+.work-btn {
+    color: #fff;
+    font-size: 24px;
+    vertical-align: middle;
+    background-color: #000;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.contact-btn {
+    color: #000;
+    font-size: 24px;
+  
+    background-color: #fff;
+    border: 5px solid #000;
+    padding: 10px 55px;
+    border-radius: 10px;
+}
+
+.main-title {
+  font-family: "Eczar", sans-serif;
+  font-size: 64px;
+  line-height: 80px;
+
+  padding: 24px 0 40px 0;
 }
